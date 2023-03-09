@@ -65,7 +65,7 @@ nav ul li a{
 }
 
 .prueba p{
-    margin-top: 1em;
+    margin: 2em 0;
     font-size: 19px;
     color: rgb(134, 140, 152);
     text-align: center;
@@ -73,14 +73,13 @@ nav ul li a{
     line-height: 1.5;
 }
 
-.files button{
-    width: 280px;
-    height: 55px;
+.files a{
+    text-decoration: none;
+    padding: 15px 75px;
     border-radius: 50px;
     color: white;
     border: none;
     background-color: hsl(176, 68%, 64%);
-    margin: 1em 0 7em 0;
 }
 /**************************************/
 
@@ -185,6 +184,10 @@ nav ul li a{
     gap: 0.5em;
     border-bottom: 1px solid hsl(176, 68%, 64%);
     padding-bottom: 0.5em;
+}
+
+.link a img{
+    border-bottom: 1px solid transparent;
 }
 
 /***************************************************************/
@@ -301,6 +304,18 @@ nav ul li a{
     border: none;
 }
 
+.primero .advertencia{
+    margin-top: 0.5em;
+    font-size: 10px;
+    color: red;
+    display: none;
+    right: 130px;
+    position: relative;
+}
+
+input:focus{
+    outline: none;
+}
 .email button{
     width: 200px;
     height: 50px;   
