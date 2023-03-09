@@ -33,7 +33,6 @@ nav ul li a{
 }
 
 .files{
-    /*height: 115vh;*/
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -173,8 +172,6 @@ nav ul li a{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    
-    
 }
 
 .link a {
@@ -253,8 +250,6 @@ nav ul li a{
 
 /******************************************************/
 
-
-
 .free{
     /*margin-top: 1em;*/
     display: flex;
@@ -325,8 +320,6 @@ input:focus{
     color: hsl(0, 0%, 100%);
     font-weight: 600;
 }
-
-
 
 /*****************************************************/
 
@@ -427,6 +420,7 @@ footer h1{
 /*****************************************500**************************/
 
 @media only screen and (max-width: 768px){
+    
     body{
         margin: 0;
         padding: 0;
@@ -490,6 +484,7 @@ footer h1{
     }
 
     /***************/
+
     .comentario{
         padding: 0 0 8em 0;
     }
@@ -518,7 +513,6 @@ footer h1{
     .cuadros{
         align-items: start;
     }
-
 
     /*****************/
 
